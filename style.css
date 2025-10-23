@@ -1,0 +1,22 @@
+/* Fond gris foncé sur toute la page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Conteneur principal centré */
+.container {
+  text-align: center;
+}
+
+/* Logo centré, taille auto, transparence respectée */
+.logo {
+  width: 600px;
+  height: auto;
+  image-rendering: auto;
+}
